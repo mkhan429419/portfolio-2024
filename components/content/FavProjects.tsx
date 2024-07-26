@@ -17,8 +17,7 @@ const useStyles = createStyles((theme: any) => ({
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     position: 'relative',
-    overflow: 'hidden', // Ensure the zoom effect doesn't overflow
-    transition: 'transform 0.5s ease', // Smooth transition
+    overflow: 'hidden',
     '::after': {
       content: '""',
       position: 'absolute',
@@ -27,23 +26,12 @@ const useStyles = createStyles((theme: any) => ({
       right: 0,
       bottom: 0,
       backgroundColor: 'rgba(0, 0, 0, 0.5)',
+      transition: 'background-color 0.5s ease', // Smooth transition
       zIndex: 1,
     },
-    '&:hover $backgroundImage': {
-      transform: 'scale(1.1)', // Zoom effect
+    '&:hover::after': {
+      backgroundColor: 'rgba(0, 0, 0, 0.7)', // Darker effect on hover
     },
-  },
-
-  backgroundImage: {
-    position: 'absolute',
-    top: 0,
-    left: 0,
-    right: 0,
-    bottom: 0,
-    backgroundSize: 'cover',
-    backgroundPosition: 'center',
-    transition: 'transform 0.5s ease', // Smooth transition
-    zIndex: 0,
   },
 
   title: {
@@ -77,11 +65,7 @@ const Card = ({ image, title, category, repo, link }: CardProps) => {
   const { classes } = useStyles();
 
   return (
-    <Paper shadow="md" radius="md" className={classes.card}>
-      <div
-        className={classes.backgroundImage}
-        style={{ backgroundImage: `url(${image})` }}
-      ></div>
+    <Paper shadow="md" radius="md" className={classes.card} style={{ backgroundImage: `url(${image})` }}>
       <div>
         <Text className={classes.category} size="xs">
           {category}

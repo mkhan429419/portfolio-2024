@@ -16,32 +16,29 @@ const AboutSection = () => {
 
         <AnimationContainer customClassName="w-full flex flex-col gap-5 mb-8">
           <p className="text-base text-gray-400">
-            I am a passionate and versatile Software Enginering student with
-            over +{calculateDuration('2023-01-01', false)} of JavaScript
-            experience and a constant interest in learning new technologies. I
-            am currently diving into machine learning and working on mastering
-            tools or practices such as "TypeScript, AWS, Docker, SEO" in order
-            to deliver optimized, reliable and production-grade software.
+            I am a passionate and versatile Software Engineering student with
+            over {calculateDuration('2023-01-01', false)} of JavaScript
+            experience and a keen interest in learning new technologies. I am
+            currently exploring machine learning and mastering tools and
+            practices such as TypeScript, AWS, Docker, and SEO to deliver
+            optimized, reliable, and production-grade software.
           </p>
 
           <p className="text-base text-gray-400">
-            I have good experience in web frontend development, using frameworks
-            and technologies such as "React and Next.js". I also have skills in
-            Backend development with "Node, Express, MongoDB, and Python". In
-            terms of UX design, I mainly have experience with "Figma" and
-            "Photoshop". I always follow the best practices of prototyping and
-            coding, clean architecture, "SOLID" principles, and agile
-            methodologies.
+            I have solid experience in web frontend development, utilizing
+            frameworks and technologies such as React and Next.js. My backend
+            development skills include working with Node, Express, MongoDB, and
+            Python. Additionally, I have UX design experience using Figma and
+            Photoshop. I adhere to best practices in prototyping and coding,
+            clean architecture, SOLID principles, and agile methodologies.
           </p>
 
           <p className="text-base text-gray-400">
-            In addition to my internship work, I also work on my own projects,
-            creating useful software or products from design and development to
-            deployment in AWS that contribute and help to solve problems or try
-            to solve them or give inspiration to the user connecting the AI to
-            an API and using the "Actions" of OpenAI or others, to give commands
-            and interact with the API and, finally, provide a result to the
-            user.
+            Beyond my internship and course work, I engage in personal projects where I
+            create useful software or products from design and development to
+            deployment on Vercel/Heroku/AWS. These projects aim to solve problems,
+            provide inspiration, or enhance user experiences by delivering
+            software tailored to providing specific solutions.
           </p>
         </AnimationContainer>
 
@@ -55,7 +52,7 @@ const AboutSection = () => {
             worked with, since I started programming about +
             {calculateDuration('2022-01-01', false)} ago. I have tried different
             programming languages and technology stacks, both Backend and
-            Frontend, though I enjoy Frontend development more!
+            Frontend, though I enjoy Frontend Development more!
           </p>
 
           <div className="flex flex-col items-start gap-3 mt-3">

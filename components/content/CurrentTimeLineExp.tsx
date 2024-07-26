@@ -37,7 +37,7 @@ const CurrentTimeLineExp = () => {
         </TimelineEvent.Title>
 
         <TimelineEvent.Description>
-          I am currently part of this SWE fellowship; working on multiple
+          I am currently part of Headstarter's SWE fellowship; working on multiple
           projects, both solo and in teams, ranging from a Personal Portfolio
           Website to a full-fledged FYP Manager Application. I am mainly
           involved in the frontend development of projects, implementing clean

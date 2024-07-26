@@ -80,7 +80,7 @@ const Footer = () => {
             GitHub
           </ExternalLink>
 
-          <ExternalLink href="www.linkedin.com/in/maheen-akhtar-khan-377082267">
+          <ExternalLink href="https://www.linkedin.com/in/maheen-akhtar-khan-377082267/">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
