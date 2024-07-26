@@ -18,7 +18,7 @@ const ContactMe = () => {
                 Email
               </h6>
               <p className='text-base mt-2 text-gray-400'>
-                jeanrdev@gmail.com
+                pakhtar635@gmail.com
               </p>
             </div>
           {/* </a> */}
@@ -29,7 +29,7 @@ const ContactMe = () => {
                 Phone
               </h6>
               <p className='text-base mt-2 text-gray-400'>
-                +58 4122901679
+                +92 3269399112
               </p>
             </div>
           {/* </a> */}
@@ -37,7 +37,7 @@ const ContactMe = () => {
         </div>
 
         <div className='w-full flex justify-center items-center flex-col'>
-          <form action='https://formspree.io/f/xdorkorr' method='POST' className='w-full space-y-4'>
+          <form action='https://formspree.io/f/xnnajyqd' method='POST' className='w-full space-y-4'>
             <div>
               <label className='sr-only' htmlFor='name'>Name</label>
               <input
