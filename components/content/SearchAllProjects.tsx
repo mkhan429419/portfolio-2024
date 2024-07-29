@@ -30,6 +30,14 @@ const allProjectsInfo = [
     category: 'python - django',
     repo: 'https://github.com/tehreemahmad149/DSAProject',
     link: 'https://www.linkedin.com/posts/umair-gosal-227b54201_hi-linkedin-fam-in-collaboration-with-activity-7166074799440576512-SqmG?utm_source=share&utm_medium=member_android'
+  },
+  {
+    id: '4',
+    title: 'SmartDocs',
+    des: 'A next-generation document editing platform designed to enhance user productivity and collaboration.',
+    category: 'next - tailwind - typescript - sentry - liveblocks - clerk',
+    repo: 'https://github.com/javeria2108/SmartDocs',
+    link: 'https://docs-clone-green.vercel.app/'
   }
 ];
 

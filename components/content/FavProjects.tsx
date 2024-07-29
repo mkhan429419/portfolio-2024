@@ -135,6 +135,14 @@ const favProjects = [
     category: 'React - Tailwind - TypeScript - Node - MongoDB - AWS',
     repo: 'https://github.com/mkhan429419/DataHub',
     link: 'https://react-project-six-nu.vercel.app/'
+  },
+  {
+    image:
+      'https://res.cloudinary.com/df2xrd865/image/upload/v1722237962/Screenshot_2024-07-29_112524_ovn6fx.png',
+    title: 'SmartDocs',
+    category: 'Next - Tailwind - TypeScript - Sentry - LiveBlocks - Clerk',
+    repo: 'https://github.com/javeria2108/SmartDocs',
+    link: 'https://docs-clone-green.vercel.app/'
   }
 ];
 
