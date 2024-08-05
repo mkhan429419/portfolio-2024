@@ -143,6 +143,14 @@ const favProjects = [
     category: 'Next - Tailwind - TypeScript - Sentry - LiveBlocks - Clerk',
     repo: 'https://github.com/javeria2108/SmartDocs',
     link: 'https://docs-clone-green.vercel.app/'
+  },
+  {
+    image:
+      'https://res.cloudinary.com/df2xrd865/image/upload/v1722848834/Screenshot_2024-08-05_130621_lmcv46.png',
+    title: 'StockSmart',
+    category: 'Next - Tailwind - TypeScript - MUI - Firebase - Clerk',
+    repo: 'https://github.com/mkhan429419/inventory-management-system',
+    link: 'https://stocksmart.vercel.app/'
   }
 ];
 

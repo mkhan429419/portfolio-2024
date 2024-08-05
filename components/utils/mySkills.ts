@@ -17,7 +17,7 @@ export const skills = [
   },
   {
     title: 'Backend stack',
-    techs: ['noSQL', 'Node.js', 'Express.js', 'MongoDB', 'Postman', 'MySQL']
+    techs: ['noSQL', 'Node.js', 'Express.js', 'MongoDB', 'Firebase', 'Postman', 'MySQL']
   },
   {
     title: 'Softwares and tools',

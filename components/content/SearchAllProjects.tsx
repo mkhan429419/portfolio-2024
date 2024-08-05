@@ -38,6 +38,14 @@ const allProjectsInfo = [
     category: 'next - tailwind - typescript - sentry - liveblocks - clerk',
     repo: 'https://github.com/javeria2108/SmartDocs',
     link: 'https://docs-clone-green.vercel.app/'
+  },
+  {
+    id: '5',
+    title: 'StockSmart',
+    des: 'A comprehensive pantry management system designed to make kitchen management smarter and more efficient.',
+    category: 'next - tailwind - typeScript - mui - firebase - clerk',
+    repo: 'https://github.com/mkhan429419/inventory-management-system',
+    link: 'https://stocksmart.vercel.app/'
   }
 ];
 
