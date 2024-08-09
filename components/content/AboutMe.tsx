@@ -4,6 +4,17 @@ import { calculateDuration } from './CurrentTimeLineExp';
 const AboutMe = () => {
   return (
     <AnimationContainer customClassName="w-full mb-16">
+      <div className="flex justify-center lg:justify-start mb-8">
+        <a
+          href="https://docs.google.com/document/d/1nIfMH813-7o8hPvigFmR_V0AGXJpW7PEWTVAOiT4Lfo/export?format=pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-gray-500 text-white font-bold py-2 px-4 rounded hover:bg-gray-700 transition duration-300"
+        >
+          View My CV
+        </a>
+      </div>
+
       <h2 className="font-bold text-2xl tracking-tight mb-8 text-white text-center lg:text-start">
         About me
       </h2>

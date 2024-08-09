@@ -34,11 +34,11 @@ const AboutSection = () => {
           </p>
 
           <p className="text-base text-gray-400">
-            Beyond my internship and course work, I engage in personal projects where I
-            create useful software or products from design and development to
-            deployment on Vercel/Heroku/AWS. These projects aim to solve problems,
-            provide inspiration, or enhance user experiences by delivering
-            software tailored to providing specific solutions.
+            Beyond my internship and course work, I engage in personal projects
+            where I create useful software or products from design and
+            development to deployment on Vercel/Heroku/AWS. These projects aim
+            to solve problems, provide inspiration, or enhance user experiences
+            by delivering software tailored to providing specific solutions.
           </p>
         </AnimationContainer>
 
