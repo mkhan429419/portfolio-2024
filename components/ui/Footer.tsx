@@ -144,7 +144,7 @@ const Footer = () => {
             Contact
           </Link>
 
-          <ExternalLink href="https://docs.google.com/document/d/1nIfMH813-7o8hPvigFmR_V0AGXJpW7PEWTVAOiT4Lfo/export?format=pdf">
+          <ExternalLink href="https://drive.google.com/file/d/1N-MNpCz0FlcN9iMyhCW9cghwnrVwT5Qe/view?usp=sharing">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
