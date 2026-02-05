@@ -6,7 +6,7 @@ const AboutMe = () => {
     <AnimationContainer customClassName="w-full mb-16">
       <div className="flex justify-center lg:justify-start mb-8">
         <a
-          href="https://drive.google.com/file/d/1N-MNpCz0FlcN9iMyhCW9cghwnrVwT5Qe/view?usp=sharing"
+          href="https://docs.google.com/document/d/1Q19JyPTfHUG_QdYq0lUesaKULfKtckfi53ZgXHi47E0/edit?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-gray-500 text-white font-bold py-2 px-4 rounded hover:bg-gray-700 transition duration-300"
